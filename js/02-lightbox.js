@@ -36,7 +36,6 @@ function onClickImg(evt) {
   if (evt.target.classList.contains("gallery")) {
     return;
   }
-  onModal(evt);
 }
 
 const lightbox = new SimpleLightbox(".gallery a", {
